@@ -100,7 +100,7 @@ import { canStartJob, sizeChange, stripMetadata } from "karsh-gorsel-plan";
 canStartJob([], 48_000_000, 40_000_000, 3);                    // true — ilk iş her zaman başlar
 canStartJob([12_000_000, 12_000_000], 48_000_000, 40_000_000, 3); // false — bütçe yetmiyor
 
-sizeChange(2_400_000, 310_000);  // { kind: "smaller", share: 0.87 }
+sizeChange(2_400_000, 312_000);  // { kind: "smaller", share: 0.87 }
 sizeChange(18_000_000, 848);     // { kind: "smaller", share: 0.99 } — "%100 küçüldü" boş dosya demektir
 sizeChange(100_000, 100_200);    // { kind: "same" } — binde beşin altı değişiklik sayılmaz
 
@@ -241,7 +241,7 @@ import { canStartJob, sizeChange, stripMetadata } from "karsh-gorsel-plan";
 canStartJob([], 48_000_000, 40_000_000, 3);                       // true — one job always runs
 canStartJob([12_000_000, 12_000_000], 48_000_000, 40_000_000, 3); // false — over budget
 
-sizeChange(2_400_000, 310_000); // { kind: "smaller", share: 0.87 }
+sizeChange(2_400_000, 312_000); // { kind: "smaller", share: 0.87 }
 sizeChange(18_000_000, 848);    // { kind: "smaller", share: 0.99 } — "100 % smaller" reads as an empty file
 sizeChange(100_000, 100_200);   // { kind: "same" } — under half a percent is no change
 

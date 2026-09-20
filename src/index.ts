@@ -4,4 +4,4 @@
  * format says what it can become, the size says whether it may start now.
  */
 
-export * from "./gorsel";
+export * from "./gorsel.js";
