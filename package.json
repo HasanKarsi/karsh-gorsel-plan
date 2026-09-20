@@ -1,0 +1,31 @@
+{
+  "name": "karsh-gorsel-plan",
+  "version": "0.1.0",
+  "description": "Görsel sıkıştırmanın kararları: başlıktan format tespiti, ölçekleme, metadata soyma, bellek bütçesi — kodek yok · The decisions behind image compression: format from the header, scaling, metadata stripping, memory budget — no codec",
+  "license": "MIT",
+  "author": "Hasan Karşı / KARSH",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "image",
+    "compression",
+    "image-header",
+    "magic-bytes",
+    "exif",
+    "metadata",
+    "resize",
+    "webp",
+    "avif",
+    "typescript"
+  ]
+}
