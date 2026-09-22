@@ -47,7 +47,7 @@ Paket derlenmiş dosya taşımaz; TypeScript kaynağı olduğu gibi yayımlanır
 (`exports` doğrudan `src/index.ts`'i gösterir). Build adımı yoktur.
 
 ```bash
-npm i github:<kullanıcı>/karsh-gorsel-plan
+npm i github:HasanKarsi/karsh-gorsel-plan
 ```
 
 Node 18 ve üzeri, ya da herhangi bir tarayıcı/worker. Tek kullandığı ortam
@@ -188,7 +188,7 @@ No build step and no compiled files: the package ships TypeScript source and
 `exports` points straight at `src/index.ts`.
 
 ```bash
-npm i github:<user>/karsh-gorsel-plan
+npm i github:HasanKarsi/karsh-gorsel-plan
 ```
 
 Node 18 or newer, or any browser or worker. The only platform API it uses is
